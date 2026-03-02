@@ -1,0 +1,77 @@
+.comment-form-container {
+    margin-top: 1rem;
+}
+
+.comment-form {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.comment-form textarea {
+    flex: 1;
+    border: 1px solid var(--light-gray);
+    border-radius: 8px;
+    padding: 0.8rem 1.5rem;
+    resize: none;
+    font-size: 1rem;
+    color: var(--dark-blue);
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.comment-form textarea:focus {
+    border-color: var(--moderate-blue);
+}
+
+.user-avatar-desktop img {
+    width: 40px;
+    height: 40px;
+}
+
+.btn-send {
+    background-color: var(--moderate-blue);
+    color: var(--white);
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    font-weight: var(--font-medium);
+    font-size: 1rem;
+}
+
+.btn-send:hover {
+    opacity: 0.6;
+}
+
+.user-avatar-mobile {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .comment-form {
+        flex-direction: column;
+    }
+
+    .comment-form textarea {
+        width: 100%;
+    }
+
+    .user-avatar-desktop {
+        display: none;
+    }
+
+    .user-avatar-mobile {
+        display: block;
+    }
+
+    .user-avatar-mobile img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .form-footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+}

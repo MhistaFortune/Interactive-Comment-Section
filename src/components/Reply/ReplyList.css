@@ -1,0 +1,25 @@
+.reply-list-container {
+    display: flex;
+    margin-top: 1.25rem;
+    gap: 1.5rem;
+}
+
+.reply-line {
+    width: 2px;
+    background-color: var(--light-gray);
+    margin-left: 1.5rem;
+}
+
+.reply-items {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .reply-list-container {
+        gap: 1rem;
+    }
+
+    .reply-line {
+        margin-left: 0;
+    }
+}

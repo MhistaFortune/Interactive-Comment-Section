@@ -1,0 +1,81 @@
+@import url('https://fonts.google.com/specimen/Rubik');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+:root {
+  /* Primary Colors */
+  --moderate-blue: hsl(238, 40%, 52%);
+  --soft-red: hsl(358, 79%, 66%);
+  --light-grayish-blue: hsl(239, 57%, 85%);
+  --pale-red: hsl(357, 100%, 86%);
+
+  /* Neutral Colors */
+  --dark-blue: hsl(212, 24%, 26%);
+  --grayish-blue: hsl(211, 10%, 45%);
+  --light-gray: hsl(223, 19%, 93%);
+  --very-light-gray: hsl(228, 33%, 97%);
+  --white: hsl(0, 100%, 100%);
+  --light-grayish-blue-faded: hsl(239, 57%, 95%);
+
+  /* Typography */
+  --font-family: 'Rubik', sans-serif;
+  --font-size: 16px;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  background-color: var(--very-light-gray);
+  color: var(--grayish-blue);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+#root {
+  width: 100%;
+  max-width: 730px;
+}
+
+button {
+  font-family: var(--font-family);
+  cursor: pointer;
+  border: none;
+  background: none;
+  transition: opacity 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.6;
+}
+
+ul {
+  list-style: none;
+}
+
+textarea {
+  font-family: var(--font-family);
+}
+
+/* Common Styles */
+.card {
+  background-color: var(--white);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+}
