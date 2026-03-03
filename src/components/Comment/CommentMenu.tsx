@@ -35,11 +35,11 @@ const CommentMenu: React.FC<CommentMenuProps> = ({ onDelete, onEdit }) => {
             {isOpen && (
                 <div className="menu-dropdown card">
                     <button className="menu-item btn-delete-action" onClick={() => { onDelete(); setIsOpen(false); }}>
-                        <img src="./images/icon-delete.svg" alt="" />
+                        <img src="/images/icon-delete.svg" alt="" />
                         Delete
                     </button>
                     <button className="menu-item btn-edit-action" onClick={() => { onEdit(); setIsOpen(false); }}>
-                        <img src="./images/icon-edit.svg" alt="" />
+                        <img src="/images/icon-edit.svg" alt="" />
                         Edit
                     </button>
                 </div>

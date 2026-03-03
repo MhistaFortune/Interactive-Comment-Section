@@ -45,11 +45,11 @@ const CommentItem: React.FC<CommentItemProps> = ({
             <div className="comment-item card">
                 <div className="vote-control desktop">
                     <button onClick={() => onVote(comment.id, 'up')}>
-                        <img src="./images/icon-plus.svg" alt="plus" />
+                        <img src="/images/icon-plus.svg" alt="plus" />
                     </button>
                     <span>{comment.score}</span>
                     <button onClick={() => onVote(comment.id, 'down')}>
-                        <img src="./images/icon-minus.svg" alt="minus" />
+                        <img src="/images/icon-minus.svg" alt="minus" />
                     </button>
                 </div>
 
@@ -67,7 +67,7 @@ const CommentItem: React.FC<CommentItemProps> = ({
 
                         <div className="comment-header-actions">
                             <button className="btn-reply-action desktop-only" onClick={() => setIsReplying(!isReplying)}>
-                                <img src="./images/icon-reply.svg" alt="reply" /> Reply
+                                <img src="/images/icon-reply.svg" alt="reply" /> Reply
                             </button>
                             <CommentMenu
                                 onDelete={() => onDelete(comment.id)}
@@ -98,16 +98,16 @@ const CommentItem: React.FC<CommentItemProps> = ({
                     <div className="comment-actions mobile">
                         <div className="vote-control mobile-only">
                             <button onClick={() => onVote(comment.id, 'up')}>
-                                <img src="./images/icon-plus.svg" alt="plus" />
+                                <img src="/images/icon-plus.svg" alt="plus" />
                             </button>
                             <span>{comment.score}</span>
                             <button onClick={() => onVote(comment.id, 'down')}>
-                                <img src="./images/icon-minus.svg" alt="minus" />
+                                <img src="/images/icon-minus.svg" alt="minus" />
                             </button>
                         </div>
                         <div className="action-buttons">
                             <button className="btn-reply-action" onClick={() => setIsReplying(!isReplying)}>
-                                <img src="./images/icon-reply.svg" alt="reply" /> Reply
+                                <img src="/images/icon-reply.svg" alt="reply" /> Reply
                             </button>
                         </div>
                     </div>

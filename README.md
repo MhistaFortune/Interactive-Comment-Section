@@ -33,12 +33,16 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the Interactive comments section coding challenge](./preview.jpg)
+![Desktop View](./screenshots/desktop-view.jpeg)
+
+![Mobile View](./screenshots/mobile-view.jpeg)
+
+![Tablet View](./screenshots/tablet-view.jpeg)
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/yourusername/interactive-comment-section)
-- Live Site URL: [Vercel Deployment](https://interactive-comment-section.vercel.app)
+- Solution URL: [GitHub Repository](https://github.com/MhistaFortune/Interactive-Comment-Section)
+- Live Site URL: [Vercel Deployment](https://interactive-comment-section-pied.vercel.app/)
 
 ## My process
 
@@ -76,5 +80,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@MhistaFortune](https://www.frontendmentor.io/profile/MhistaFortune)
+- Twitter - [@fortunate_egwu](https://x.com/fortunate_egwu)
